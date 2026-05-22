@@ -257,7 +257,7 @@ void leerSensor() {
 
   if (err == 0) {
     temperatura = t;
-    humedad     = h;
+    humedad     = h-10;
     sensorOK    = true;
 
     // ¿Acaba de recuperarse después de haber fallado (y el sensor sí funcionó antes)?
