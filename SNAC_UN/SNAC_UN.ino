@@ -19,7 +19,7 @@ Preferences prefs;
 
 // ── Intervalos (ms) ──────────────────────────────────────────
 #define MS_SENSOR 1000      // lectura SHT40 cada 1 s
-#define MS_IR 120000         // reenvío cada 1:30 s
+#define MS_IR 90000         // reenvío cada 1:30 s
 #define MS_FRACASO 600000   // 10 minutos → fracaso
 #define MS_WIFI_CHECK 5000  // revisión de Wi-Fi cada 5 s
 
